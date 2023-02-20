@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Carrinho</title>
+</head>
+<body>
+
+
+    <div class="models">
+
+        <div class="carrinho-item">
+            <a href="">
+                <div class="carrinho-item--img"><img src="" /></div>
+                <div class="carrinho-item--add">+</div>
+            </a>
+            <div class="carrinho-item--price">R$ --</div>
+            <div class="carrinho-item--name">--</div>
+            <div class="carrinho-item--desc">--</div>
+        </div>
+
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+
+    <header class="header">
+        <div class="logo">
+            <img src="assets/logo-breshop.png" alt="Logo">
+        </div>
+        
+        <nav class="menu">
+            <ul>
+                <li><a>Página Inicial</a></li>
+                <li><a>Feminino</a></li>
+                <li><a>Masculino</a></li>
+                <li><a>Calçados</a></li>
+                <li><a>Acessórios</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+
+    <main>
+        <h2>Produtos</h2>
+        <div class="carrinho-area"></div>
+    </main>
+
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Seus Pedidos</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+
+    <div class="carrinhoWindowArea">
+        <div class="carrinhoWindowBody">
+            <div class="carrinhoInfo--cancelMobileButton">Voltar</div>
+            <div class="carrinhoBig">
+                <img src="" />
+            </div>
+            <div class="carrinhoInfo">
+                <h1>--</h1>
+                <div class="carrinhoInfo--desc">--</div>
+                <div class="carrinhoInfo--sizearea">
+                    <div class="carrinhoInfo--sector">Tamanho</div>
+                    <div class="carrinhoInfo--sizes">
+                        <div data-key="P" class="carrinhoInfo--size">P <span>--</span></div>
+                        <div data-key="M" class="carrinhoInfo--size">M <span>--</span></div>
+                        <div data-key="G" class="carrinhoInfo--size selected">G <span>--</span></div>
+                    </div>
+                </div>
+                <div class="carrinhoInfo--pricearea">
+                    <div class="carrinhoInfo--sector">Preço</div>
+                    <div class="carrinhoInfo--price">
+                        <div class="carrinhoInfo--actualPrice">R$ --</div>
+                        <div class="carrinhoInfo--qtarea">
+                            <button class="carrinhoInfo--qtmenos">-</button>
+                            <div class="carrinhoInfo--qt">1</div>
+                            <button class="carrinhoInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carrinhoInfo--addButton">Adicionar ao carrinho</div>
+                <div class="carrinhoInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="produtos.js"></script>
+    <script src="script.js"></script>
+    </body>
